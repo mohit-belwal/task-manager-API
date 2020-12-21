@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const multer = require('multer')
 const User = require('../models/user')
 const auth = require('../middleware/auth')
-const {sendWelcomeEmail, sendDeleteEmail} = require('../emails/account')
+// const {sendWelcomeEmail, sendDeleteEmail} = require('../emails/account')
 const sharp = require('sharp')
 const router = new express.Router()
 
